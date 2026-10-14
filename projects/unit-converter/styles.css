@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap');
+body{
+    font-family: 'Caveat', cursive;
+    background:#fdfbf7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin-top: 80px;
+}
+
+#tp-title{
+    margin-bottom: 120px;
+
+}
+
+input, select, button {
+    font-family: inherit;
+    font-size: 1.3rem;
+    padding: 8px 14px;
+    margin: 6px;
+    border: 2px solid #333;
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px; /* wobble */
+    background: white;
+}
+
+input, select { transform: rotate(-0.5deg); }
+button {
+  transform: rotate(1deg);
+  background: #ffe08a;             /* highlighter yellow */
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #333;      /* offset hard shadow = cartoon */
+}
+button:hover { transform: rotate(0deg) scale(1.05); }
+button:active { box-shadow: 0 0 0 #333; transform: translate(2px, 2px); }
+
+/* 4. Result looks circled in pen */
+#result {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  border: 3px solid #e63946;       /* red pen circle */
+  border-radius: 50% 45% 55% 48% / 48% 55% 45% 52%;
+  padding: 10px 30px;
+  transform: rotate(-2deg);
+}
+#result:empty { display: none; }    /* hide circle when no result */
