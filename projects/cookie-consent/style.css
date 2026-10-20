@@ -1,0 +1,53 @@
+#popup{
+    color: white;
+    background-color: black;
+    padding: 24px;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    width: 250px;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#popup p{
+     margin-top: 40px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#xbtn{
+    background: transparent;
+    border: none;
+    width: 18px;
+    height: 18px;
+    display: block;
+    filter: invert(1);
+    padding: 0;
+    cursor: pointer;
+}
+
+#cookie-png{
+    width: 48px;
+    height: auto;
+}
+
+#accept-btn{
+    background-color: white;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
