@@ -8,6 +8,7 @@ These are learning projects, separate from the products I ship. They are my impl
 
 | Project | What it does | What I practiced |
 | --- | --- | --- |
+| [Cookie consent](projects/cookie-consent) | Shows a dismissible cookie popup and remembers acceptance | DOM events, localStorage, Flexbox, spacing, and fixed positioning |
 | [Unit converter](projects/unit-converter) | Converts length, weight, and temperature with a pencil-style interface | DOM events, input handling, conversion formulas, and CSS |
 | [GitHub activity CLI](projects/github-activity-cli) | Prints a user's public GitHub activity | HTTP requests, JSON, CLI arguments, and API errors |
 | [GitHub trending CLI](projects/github-trending-cli) | Finds recently created repositories with the most stars | Query parameters, date ranges, argparse, and API limits |
@@ -18,6 +19,7 @@ These are learning projects, separate from the products I ship. They are my impl
 
 ```text
 projects/
+  cookie-consent/
   unit-converter/
   github-activity-cli/
   github-trending-cli/
