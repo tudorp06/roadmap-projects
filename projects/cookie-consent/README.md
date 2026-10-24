@@ -1,6 +1,7 @@
 # Cookie Consent
 
 A cookie consent popup built with HTML, CSS, and vanilla JavaScript for the [roadmap.sh Cookie Consent project](https://roadmap.sh/projects/cookie-consent).
+URL: https://roadmap.sh/projects/cookie-consent
 
 This project helped me practice building a UI from a reference, handling button clicks, and remembering a user's choice with `localStorage`.
 
