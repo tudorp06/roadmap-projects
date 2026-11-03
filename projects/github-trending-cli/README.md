@@ -1,5 +1,7 @@
 # GitHub trending CLI
 
+roadmap.sh project: https://roadmap.sh/projects/github-trending-cli
+
 Finds the most-starred public repositories created within a selected time range. It uses repository search, not the ranking on GitHub’s Trending page.
 
 ## Run

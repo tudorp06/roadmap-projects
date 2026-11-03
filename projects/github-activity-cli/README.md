@@ -1,5 +1,7 @@
 # GitHub activity CLI
 
+roadmap.sh project: https://roadmap.sh/projects/github-user-activity
+
 Fetches recent public events for a GitHub username and prints them in the terminal.
 
 ## Run

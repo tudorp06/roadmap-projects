@@ -6,14 +6,14 @@ These are learning projects, separate from the products I ship. They are my impl
 
 ## Implemented
 
-| Project | What it does | What I practiced |
-| --- | --- | --- |
-| [Cookie consent](projects/cookie-consent) | Shows a dismissible cookie popup and remembers acceptance | DOM events, localStorage, Flexbox, spacing, and fixed positioning |
-| [Unit converter](projects/unit-converter) | Converts length, weight, and temperature with a pencil-style interface | DOM events, input handling, conversion formulas, and CSS |
-| [GitHub activity CLI](projects/github-activity-cli) | Prints a user's public GitHub activity | HTTP requests, JSON, CLI arguments, and API errors |
-| [GitHub trending CLI](projects/github-trending-cli) | Finds recently created repositories with the most stars | Query parameters, date ranges, argparse, and API limits |
-| [Task tracker CLI](projects/task-tracker-cli) | Adds, updates, lists, and marks tasks stored in JSON | CRUD, file persistence, identifiers, and timestamps |
-| [URL shortener](projects/url-shortener) | Stores a URL behind a short code and redirects visitors | Flask routes, SQL, persistence, request validation, and redirects |
+| Project | What it does | What I practiced  roadmap.sh project |
+| --- | --- | --- | --- |
+| [Cookie consent](projects/cookie-consent) | Shows a dismissible cookie popup and remembers acceptance | DOM events, localStorage, Flexbox, spacing, and fixed positioning  [Project brief](https://roadmap.sh/projects/cookie-consent) |
+| [Unit converter](projects/unit-converter) | Converts length, weight, and temperature with a pencil-style interface | DOM events, input handling, conversion formulas, and CSS  [Project brief](https://roadmap.sh/projects/unit-converter) |
+| [GitHub activity CLI](projects/github-activity-cli) | Prints a user's public GitHub activity | HTTP requests, JSON, CLI arguments, and API errors  [Project brief](https://roadmap.sh/projects/github-user-activity) |
+| [GitHub trending CLI](projects/github-trending-cli) | Finds recently created repositories with the most stars | Query parameters, date ranges, argparse, and API limits  [Project brief](https://roadmap.sh/projects/github-trending-cli) |
+| [Task tracker CLI](projects/task-tracker-cli) | Adds, updates, lists, and marks tasks stored in JSON | CRUD, file persistence, identifiers, and timestamps  [Project brief](https://roadmap.sh/projects/task-tracker) |
+| [URL shortener](projects/url-shortener) | Stores a URL behind a short code and redirects visitors | Flask routes, SQL, persistence, request validation, and redirects  [Project brief](https://roadmap.sh/projects/url-shortening-service) |
 
 ## Structure
 
