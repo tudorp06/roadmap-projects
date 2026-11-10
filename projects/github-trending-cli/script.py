@@ -30,7 +30,7 @@ def main():
     base_url = "https://api.github.com/search/repositories"
     params = {"q": f"created:>{str(days_ago(args.duration))}", "sort": "stars", "order": "desc", "per_page": args.limit}
     headers = {
-        "User-Agent": "github-trendingcli (tudorxjh)"
+        "User-Agent": "github-trendingcli (tudor)"
     }
 
     try:
